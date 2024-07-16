@@ -10,14 +10,12 @@ function App() {
   const [password, setpassword]=useState("");
 
   const Passref=useRef(null);    //you can take a reference of any element/component to manipulate with those....here ref is passed to input password(ref={password})
-  Passref.current?.select();
-  Passref.current?.setSelectionRange(0,100);
-
+ 
 
   const copyPasstoClipboard=useCallback(()=>{                      //1
     window.navigator.clipboard.writeText(password)
     Passref.current?.select()
-  Passref.current?.setSelectionRange(0,8)
+  Passref.current?.setSelectionRange(0,100)
   },[password])
 
   
