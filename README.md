@@ -1,5 +1,5 @@
 # React + Vite
-https://password-creator-24.netlify.app/-->site deployed on netlify.................................
+https://password-creator-24.netlify.app/                  -->site deployed on netlify.................................
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
